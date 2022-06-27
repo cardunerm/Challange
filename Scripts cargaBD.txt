@@ -1,0 +1,25 @@
+CREATE DATABASE IF NOT EXISTS ChallengeLaNacion;
+
+USE ChallengeLaNacion
+
+CREATE table contact_record  (id bigint AUTO_INCREMENT primary key,
+								company VARCHAR(255) NOT NULL,
+								profileImage VARCHAR(255) NOT NULL,
+								personalPhoneNumber VARCHAR(255) NOT NULL,
+								workPhoneNumber VARCHAR(255) NOT NULL,
+								adress VARCHAR(255) NOT NULL,
+								first_name VARCHAR(255) NOT NULL,
+								email VARCHAR(255) NOT NULL,
+								is_deleted tinyint NOT NULL,
+								ciudad VARCHAR(255) NOT NULL,
+								last_name VARCHAR(255) NOT NULL)
+
+INSER INTO  contact_record  (id ,Company,ProfileImage,PersonalPhoneNumber,WorkPhoneNumber,Adress,first_name,email,is_deleted,Ciudad,last_name)
+values (2,"Clarin","foto","2615894536","2615478935","San Martín 322","Juan","juanPerez@gmail.com",0,"Mendoza","Perez")
+
+INSER INTO  contact_record  (id ,Company,ProfileImage,PersonalPhoneNumber,WorkPhoneNumber,Adress,first_name,email,is_deleted,Ciudad,last_name)
+values (3,"LaNacion","foto","261588745","261547321","San Martín 325","Matias","matiPerez@gmail.com",0,"Mendoza","Perez")
+
+INSER INTO  contact_record  (id ,Company,ProfileImage,PersonalPhoneNumber,WorkPhoneNumber,Adress,first_name,email,is_deleted,Ciudad,last_name)
+values (4,"La Nacion","foto","2615889637","2615473217","San Martín 329","Marcelo","marceloPerez@gmail.com",0,"Rosario","Perez")
+0020018824982
