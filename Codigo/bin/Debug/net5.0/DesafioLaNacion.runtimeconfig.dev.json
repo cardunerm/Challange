@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Kiltex\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Kiltex\\.nuget\\packages"
+    ]
+  }
+}
